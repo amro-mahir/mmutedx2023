@@ -1667,3 +1667,15 @@ h6 {
   font-size: 13px;
   color: #ddd;
 }
+
+/* ============================= added styles =========================*/
+#tedx-logo {
+  transform: scale(2);
+  margin: auto;
+}
+
+@media(max-width: 1418px) {
+  #tedx-logo {
+    transform: scale(1.2);
+  }
+}
