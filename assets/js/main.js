@@ -228,4 +228,20 @@
     })
   });
 
+  var speakers = [
+    {
+      name: "Speaker 1",
+      title: "Title of Speaker 1",
+      description: "Description of Speaker 1",
+      image: "path/to/speaker1/image"
+    },
+    {
+      name: "Speaker 2",
+      title: "Title of Speaker 2",
+      description: "Description of Speaker 2",
+      image: "path/to/speaker2/image"
+    },
+    // add more speakers as needed
+  ];
+
 })()
