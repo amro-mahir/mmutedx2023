@@ -227,6 +227,7 @@
       mirror: false
     })
   });
+  
   var speakers = [
     {
       name: "Speaker 1",
