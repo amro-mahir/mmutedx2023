@@ -228,6 +228,7 @@
     })
   });
   
+  // speakers objects
   var speakers = [
     {
       name: "Speaker 1",
@@ -243,5 +244,27 @@
     },
     // add more speakers as needed
   ];
+
+  function showSpeakerDetails(index) {
+    var speaker = speakers[index];
+    var modal = document.getElementById("speakerModal");
+    modal.innerHTML = `
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">${speaker.name}</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="${speaker.image}" alt="${speaker.name}">
+            <h5>${speaker.title}</h5>
+            <p>${speaker.description}</p>
+          </div>
+        </div>
+      </div>
+    `;
+    modal.style.display = "block";
+  }
+  
 
 })() 
