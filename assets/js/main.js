@@ -228,7 +228,7 @@
     })
   });
   
-  // speakers objects
+  // speakers objects - waiee
   var speakers = [
     {
       name: "Speaker 1",
