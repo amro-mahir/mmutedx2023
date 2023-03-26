@@ -234,13 +234,13 @@
       name: "Speaker 1",
       title: "Title of Speaker 1",
       description: "Description of Speaker 1",
-      image: "path/to/speaker1/image"
+      image: "C:\Users\waiee\OneDrive\Documents\GitHub\mmutedx2023\assets\img\1933170A-88E2-4E89-8038-6B4444F757B9.webp"
     },
     {
       name: "Speaker 2",
       title: "Title of Speaker 2",
       description: "Description of Speaker 2",
-      image: "path/to/speaker2/image"
+      image: "C:\Users\waiee\OneDrive\Documents\GitHub\mmutedx2023\assets\img\1933170A-88E2-4E89-8038-6B4444F757B9.webp"
     },
     // add more speakers as needed
   ];
