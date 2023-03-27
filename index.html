@@ -2,6 +2,28 @@
 <html lang="en">
 
 <head>
+  
+<script>
+function showSpeakerDetails(index) {
+  var speaker = speakers[index];
+  var modal = document.getElementById("speakerModal");
+  modal.innerHTML =
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">${speaker.name}</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <img src="${speaker.image}" alt="${speaker.name}">
+          <h5>${speaker.title}</h5>
+          <p>${speaker.description}</p>
+        </div>
+      </div>
+    </div>
+  modal.style.display = "block";}
+</script>
+  
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -130,9 +152,9 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+              <img src="C:\Users\waiee\OneDrive\Documents\GitHub\mmutedx2023\assets\img\1933170A-88E2-4E89-8038-6B4444F757B9.webp" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Brenden Legros</a></h3>
+                <h3><a href="javascript:showSpeakerDetails">Harry Potter</a></h3>
                 <p>Quas alias incidunt</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
