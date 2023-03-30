@@ -12,3 +12,23 @@ for(var i=0; i<elements.length; i++) {
   })
 }
 
+var elements1 = document.getElementsByClassName('linkedin');
+for(var i=0; i<elements1.length; i++) { 
+  elements1[i].addEventListener('click', function() {
+    window.open("https://www.linkedin.com/company/tedxmmu/")
+  })
+}
+
+var elements2 = document.getElementsByClassName('facebook');
+for(var i=0; i<elements2.length; i++) { 
+  elements2[i].addEventListener('click', function() {
+    window.open("https://www.facebook.com/TEDxMMU2023")
+  })
+}
+
+var elements3 = document.getElementsByClassName('youtube');
+for(var i=0; i<elements3.length; i++) { 
+  elements3[i].addEventListener('click', function() {
+    window.open("https://www.youtube.com/@tedxmmu")
+  })
+}
