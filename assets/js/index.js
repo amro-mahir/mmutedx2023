@@ -3,8 +3,8 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 
 document.getElementById('buy-ticket-btn').href='https://linktr.ee/tedxmmu2023'
 document.getElementById('buy-ticket-btn').target = '_blank'
-document.getElementById('speaker-section').style.pointerEvents = "none"
-document.getElementById('speaker-section').style.filter = "blur(10px)"
+// document.getElementById('speaker-section').style.pointerEvents = "none"
+// document.getElementById('speaker-section').style.filter = "blur(10px)"
 
 var elements = document.getElementsByClassName('twitter');
 for(var i=0; i<elements.length; i++) { 
