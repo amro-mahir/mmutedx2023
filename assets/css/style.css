@@ -178,6 +178,10 @@ h6 {
   max-height: 40px;
 }
 
+.modal > .modal-dialog > .modal-content {
+  z-index: 9999999;
+}
+
 @media (max-width: 992px) {
   #header #logo img {
     max-height: 30px;
@@ -1544,7 +1548,7 @@ h6 {
 }
 
 #footer .footer-top .footer-info img {
-  height: 40px;
+  height: 100px;
   margin-bottom: 10px;
 }
 
